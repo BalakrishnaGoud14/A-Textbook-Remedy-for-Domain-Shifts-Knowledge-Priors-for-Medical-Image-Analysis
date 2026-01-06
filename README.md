@@ -30,11 +30,11 @@ We evaluate the approach across **20 datasets** covering:
 
 ##  Key Contributions
 
-✔ Reproduced KnoBo results with strong alignment to the original paper  
-✔ Achieved **20%+ improvement in OOD accuracy** over ViT and DenseNet baselines  
-✔ Reduced **domain gap by ~41.8%** on chest X-ray tasks  
-✔ Added **attention mechanisms** for better clinical focus  
-✔ Preserved **interpretability via concept-level reasoning**  
+1. Reproduced KnoBo results with strong alignment to the original paper  
+2. Achieved **20%+ improvement in OOD accuracy** over ViT and DenseNet baselines  
+3. Reduced **domain gap by ~41.8%** on chest X-ray tasks  
+4. Added **attention mechanisms** for better clinical focus  
+5. Preserved **interpretability via concept-level reasoning**  
 
 ---
 
@@ -92,7 +92,7 @@ Each dataset includes:
 
 ---
 
-## 📈 Results Summary
+##  Results Summary
 
 | Model | Avg OOD Gain |
 |------|-------------|
