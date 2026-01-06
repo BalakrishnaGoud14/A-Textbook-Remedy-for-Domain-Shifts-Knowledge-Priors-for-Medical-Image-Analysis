@@ -6,7 +6,7 @@ The project demonstrates how **explicit medical knowledge**, **concept bottlenec
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Deep learning models achieve high accuracy on in-domain medical imaging tasks but often **fail catastrophically under domain shift**, caused by:
 - Demographic differences (age, sex, race)
@@ -15,11 +15,11 @@ Deep learning models achieve high accuracy on in-domain medical imaging tasks bu
 
 To address this, we build upon **KnoBo**, a **knowledge-guided concept bottleneck model**, and introduce:
 
-- 🔍 **Medical concept bottlenecks** grounded in textbooks and PubMed
-- 🧠 **Knowledge-based parameter priors**
-- 👁️ **Spatial & channel attention mechanisms**
-- 🎯 **Robust preprocessing (CLAHE) and augmentation**
-- ⚙️ **Optuna-based hyperparameter optimization**
+-  **Medical concept bottlenecks** grounded in textbooks and PubMed
+-  **Knowledge-based parameter priors**
+-  **Spatial & channel attention mechanisms**
+-  **Robust preprocessing (CLAHE) and augmentation**
+-  **Optuna-based hyperparameter optimization**
 
 We evaluate the approach across **20 datasets** covering:
 - **Chest X-rays**
@@ -28,7 +28,7 @@ We evaluate the approach across **20 datasets** covering:
 
 ---
 
-## 🧠 Key Contributions
+##  Key Contributions
 
 ✔ Reproduced KnoBo results with strong alignment to the original paper  
 ✔ Achieved **20%+ improvement in OOD accuracy** over ViT and DenseNet baselines  
@@ -38,7 +38,7 @@ We evaluate the approach across **20 datasets** covering:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 The model consists of three core components:
 
@@ -61,14 +61,14 @@ The model consists of three core components:
    - Enforces medically meaningful concept–label relationships
    - Regularizes classifier weights using knowledge-based sign constraints
 
-📌 **Enhanced Architecture**
+ **Enhanced Architecture**
 - Added **spatial + channel attention**
 - Integrated **CLAHE preprocessing**
 - Strong data augmentation pipeline
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 ### Chest X-ray
 - NIH-CXR
@@ -96,10 +96,10 @@ Each dataset includes:
 
 | Model | Avg OOD Gain |
 |------|-------------|
-| ViT-L/14 | ❌ Large drop |
-| DenseNet-121 | ❌ Large drop |
-| LSL / PCBM-h | ⚠ Moderate |
-| **KnoBo (Ours)** | ✅ **+20% OOD accuracy** |
+| ViT-L/14 |  Large drop |
+| DenseNet-121 |  Large drop |
+| LSL / PCBM-h |  Moderate |
+| **KnoBo (Ours)** |  **+20% OOD accuracy** |
 
 - Minimal ID–OOD performance gap
 - Consistent gains across modalities
@@ -107,7 +107,7 @@ Each dataset includes:
 
 ---
 
-## 🔬 Experimental Enhancements
+##  Experimental Enhancements
 
 ### Attention Mechanism
 - Improves localization of diagnostically relevant regions
@@ -123,7 +123,7 @@ Each dataset includes:
 
 ---
 
-## 🛠️ Implementation Details
+##  Implementation Details
 
 - Language: **Python**
 - Frameworks: **PyTorch**
@@ -138,7 +138,7 @@ Each dataset includes:
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 ```bash
 git clone https://github.com/BalakrishnaGoud14/A-Textbook-Remedy-for-Domain-Shifts-Knowledge-Priors-for-Medical-Image-Analysis.git
