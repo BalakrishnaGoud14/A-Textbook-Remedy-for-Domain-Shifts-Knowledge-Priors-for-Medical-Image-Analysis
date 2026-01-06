@@ -1,0 +1,2 @@
+dataset,modality,model,bottleneck,num_concepts,baseline_val_acc,baseline_ood_acc,baseline_gap,attention_val_acc,attention_ood_acc,attention_gap,val_improvement,ood_improvement,gap_improvement
+pneumonia,xray,whyxrayclip,PubMed,150,93.75,86.53846153846155,7.211538461538453,100.0,87.5,12.5,6.25,0.9615384615384528,-5.288461538461547
